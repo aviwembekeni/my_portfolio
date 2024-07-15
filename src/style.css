@@ -394,6 +394,10 @@ button:focus {
   padding-left: 15px;
 }
 
+.social-icons:hover {
+  cursor: pointer;
+}
+
 .icon-colour {
   color: #700c86 !important;
 }

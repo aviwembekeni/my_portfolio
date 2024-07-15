@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Preloader from "./components/preloader/preloader.components";
 import Navbar from "./components/navbar/navbar.component";
-// import Home from "./components/Home";
+import Home from "./components/home/home.component";
 // import About from "./components/About";
 // import Projects from "./components/Projects";
 // import Footer from "./components/Footer";
@@ -35,7 +35,7 @@ function App() {
         <Navbar />
         {/* <ScrollToTop /> */}
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<Home />} />
           {/* <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} /> */}

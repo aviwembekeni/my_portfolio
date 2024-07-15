@@ -1,0 +1,41 @@
+.home-section {
+  position: relative;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-header {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.heading {
+  padding-bottom: 15px;
+}
+
+.heading-name {
+  font-weight: bold;
+}
+
+.main-name {
+  color: #f39c12; /* or any color you prefer */
+}
+
+.type-container {
+  padding: 50px 0;
+  text-align: left;
+}
+
+.home-image-container {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.home-img {
+  max-height: 450px;
+}
