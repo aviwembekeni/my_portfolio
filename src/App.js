@@ -6,7 +6,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import Preloader from "./components/preloader/preloader.components";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar/navbar.component";
 // import Home from "./components/Home";
 // import About from "./components/About";
 // import Projects from "./components/Projects";
@@ -32,7 +32,7 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className={`App ${load ? "no-scroll" : "scroll"}`}>
-        {/* <Navbar /> */}
+        <Navbar />
         {/* <ScrollToTop /> */}
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
