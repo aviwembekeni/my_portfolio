@@ -9,7 +9,7 @@ import {
 } from "react-icons/ai";
 import { CgFileDocument, CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
-import logo from "../../Assets/logo.png";
+import logo from "../../Assets/my-logo.PNG";
 // import "../styles/NavBar.css";
 
 const NavBar = () => {
@@ -63,15 +63,8 @@ const NavBar = () => {
             <Nav.Link as={Link} to="/resume" onClick={() => setExpand(false)}>
               <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
             </Nav.Link>
-            <Nav.Link
-              href="https://soumyajitblogs.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-            </Nav.Link>
             <Button
-              href="https://github.com/soumyajit4419/Portfolio"
+              href="https://github.com/aviwembekeni/my_portfolio"
               target="_blank"
               className="fork-btn-inner"
             >
