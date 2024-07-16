@@ -8,7 +8,7 @@ import {
 import Preloader from "./components/preloader/preloader.components";
 import Navbar from "./components/navbar/navbar.component";
 import Home from "./components/home/home.component";
-// import About from "./components/About";
+import About from "./components/about/about.component";
 // import Projects from "./components/Projects";
 // import Footer from "./components/Footer";
 // import Resume from "./components/Resume";
@@ -36,9 +36,9 @@ function App() {
         {/* <ScrollToTop /> */}
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/projects" element={<Projects />} />
+          {/* <Route path="/projects" element={<Projects />} /> */}
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} /> */}
+          {/* <Route path="/resume" element={<Resume />} />  */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         {/* <Footer /> */}

@@ -1,0 +1,13 @@
+.github-calendar-container {
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.project-heading {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.purple {
+  color: #6a1b9a;
+}
