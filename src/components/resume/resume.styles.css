@@ -1,0 +1,19 @@
+.resume-section {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.resume-button-row {
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.download-button {
+  max-width: 250px;
+}
+
+.resume {
+  justify-content: center;
+  margin: 20px 0;
+}

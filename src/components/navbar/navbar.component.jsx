@@ -8,7 +8,6 @@ import {
   AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
 import { CgFileDocument, CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import logo from "../../Assets/my-logo.PNG";
 // import "../styles/NavBar.css";
 

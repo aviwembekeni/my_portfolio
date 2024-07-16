@@ -11,7 +11,7 @@ import Home from "./components/home/home.component";
 import About from "./components/about/about.component";
 // import Projects from "./components/Projects";
 // import Footer from "./components/Footer";
-// import Resume from "./components/Resume";
+import Resume from "./components/resume/resume.component";
 // import ScrollToTop from "./components/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -38,7 +38,7 @@ function App() {
           <Route path="/" element={<Home />} />
           {/* <Route path="/projects" element={<Projects />} /> */}
           <Route path="/about" element={<About />} />
-          {/* <Route path="/resume" element={<Resume />} />  */}
+          <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         {/* <Footer /> */}
