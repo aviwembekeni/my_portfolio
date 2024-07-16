@@ -12,51 +12,32 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 const projectData = [
   {
     imgPath: chatify,
-    title: "Chatify",
-    description:
-      "Personal Chat Room or Workspace to share resources and hangout with friends built with React.js, Material-UI, and Firebase. Features real-time messaging, image sharing, and message reactions.",
-    ghLink: "https://github.com/soumyajit4419/Chatify",
-    demoLink: "https://chatify-49.web.app/",
+    title: "Monsters Rolodex",
+    description: "Simple Monster Searching React App",
+    ghLink: "https://github.com/aviwembekeni/monsters-rolodex",
+    demoLink: null,
   },
   {
     imgPath: bitsOfCode,
-    title: "Bits-0f-C0de",
+    title: "Kasi Clothing",
     description:
-      "My personal blog page built with Next.js and Tailwind CSS, rendering content from markdown files. Supports dark mode and easy blog writing using markdown.",
-    ghLink: "https://github.com/soumyajit4419/Bits-0f-C0de",
-    demoLink: "https://blogs.soumya-jit.tech/",
+      "E-commerce app built with React, Redux, Hooks, GraphQL, Stripe, Firebase",
+    ghLink: "https://github.com/aviwembekeni/kasi-clothing",
+    demoLink: null,
   },
   {
     imgPath: editor,
-    title: "Editor.io",
-    description:
-      "Online code and markdown editor built with React.js. Supports HTML, CSS, and JS code with instant previews, along with markdown editing for README files. Features auto-save using local storage.",
-    ghLink: "https://github.com/soumyajit4419/Editor.io",
-    demoLink: "https://editor.soumya-jit.tech/",
+    title: "Banking App",
+    description: "Banking App built with Python",
+    ghLink: "https://github.com/aviwembekeni/Banking-App",
+    demoLink: null,
   },
   {
     imgPath: leaf,
-    title: "Plant AI",
-    description:
-      "Trained an image classifier model using PyTorch on a plant disease dataset from Kaggle, achieving 98% accuracy with ResNet34. Can detect diseased and healthy leaves of 14 unique plants.",
-    ghLink: "https://github.com/soumyajit4419/Plant_AI",
-    demoLink: "https://plant49-ai.herokuapp.com/",
-  },
-  {
-    imgPath: suicide,
-    title: "AI For Social Good",
-    description:
-      "Utilizing Natural Language Processing to detect suicide-related posts and user ideation in cyberspace, aiding in suicide prevention.",
-    ghLink: "https://github.com/soumyajit4419/AI_For_Social_Good",
-    demoLink: null, // Add demo link here
-  },
-  {
-    imgPath: emotion,
-    title: "Face Recognition and Emotion Detection",
-    description:
-      "Trained a CNN classifier using the FER-2013 dataset with Keras. Achieved 60.1% accuracy in emotion prediction, using OpenCV for face detection.",
-    ghLink: "https://github.com/soumyajit4419/Face_And_Emotion_Detection",
-    demoLink: null, // Add demo link here
+    title: "Rock Paper Sciscor",
+    description: "Rock Paper Sciscor game build using Javascript",
+    ghLink: "https://github.com/aviwembekeni/Rock-Paper-Scissors-Game",
+    demoLink: null,
   },
 ];
 
