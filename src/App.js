@@ -9,10 +9,10 @@ import Preloader from "./components/preloader/preloader.components";
 import Navbar from "./components/navbar/navbar.component";
 import Home from "./components/home/home.component";
 import About from "./components/about/about.component";
-// import Projects from "./components/Projects";
-// import Footer from "./components/Footer";
+import Projects from "./components/projects/projects.component";
+import Footer from "./components/footer/footer.component";
 import Resume from "./components/resume/resume.component";
-// import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./common/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import "./style.css";
@@ -33,15 +33,15 @@ function App() {
       <Preloader load={load} />
       <div className={`App ${load ? "no-scroll" : "scroll"}`}>
         <Navbar />
-        {/* <ScrollToTop /> */}
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/projects" element={<Projects />} /> */}
+          <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
