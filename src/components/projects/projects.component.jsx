@@ -15,7 +15,7 @@ const projectData = [
     title: "Monsters Rolodex",
     description: "Simple Monster Searching React App",
     ghLink: "https://github.com/aviwembekeni/monsters-rolodex",
-    demoLink: null,
+    demoLink: "https://gorgeous-maamoul-09cf8c.netlify.app/",
   },
   {
     imgPath: bitsOfCode,
@@ -23,7 +23,7 @@ const projectData = [
     description:
       "E-commerce app built with React, Redux, Hooks, GraphQL, Stripe, Firebase",
     ghLink: "https://github.com/aviwembekeni/kasi-clothing",
-    demoLink: null,
+    demoLink: "https://master--zesty-twilight-178458.netlify.app/",
   },
   {
     imgPath: editor,
