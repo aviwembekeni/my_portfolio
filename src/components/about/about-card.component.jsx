@@ -11,8 +11,8 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Aviwe Ngqukumba </span>
             from <span className="purple"> Cape Town, South Africa.</span>
             <br />
-            I am currently employed as a Full Stack Software Developer intern at
-            BSG under Capaciti.
+            I am currently employed as a Software Developer Candidate at
+            Capaciti.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
