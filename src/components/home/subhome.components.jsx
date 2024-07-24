@@ -38,7 +38,7 @@ function SubHome() {
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript Libraries and Frameworks
                 </b>
               </i>
               &nbsp; like
@@ -53,7 +53,7 @@ function SubHome() {
             </Tilt>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
@@ -66,6 +66,7 @@ function SubHome() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
+                  style={{ color: "inherit", textDecoration: "none" }}
                 >
                   <AiFillGithub />
                 </a>
@@ -76,6 +77,7 @@ function SubHome() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
+                  style={{ color: "inherit", textDecoration: "none" }}
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -86,13 +88,14 @@ function SubHome() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
+                  style={{ color: "inherit", textDecoration: "none" }}
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
             </ul>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
