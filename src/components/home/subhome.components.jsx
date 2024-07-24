@@ -29,7 +29,7 @@ function SubHome() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in a bit of <b className="purple">Mobile Apps.</b>
+                also a bit of <b className="purple">Mobile Apps.</b>
               </i>
               <br />
               <br />
