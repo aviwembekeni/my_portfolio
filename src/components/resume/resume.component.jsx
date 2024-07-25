@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Button } from "react-bootstrap";
 import Particle from "../../common/Particle";
-import pdf from "../../Assets/Aviwe_Nqukumba-C_V.pdf";
+import pdf from "../../Assets/Aviwe_Ngqukumba_CV.pdf";
 import "./resume.styles.css";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
