@@ -25,14 +25,14 @@ const projectData = [
   },
   {
     imgPath: editor,
-    title: "Banking App",
-    description: "Banking App built with Python",
-    ghLink: "https://github.com/aviwembekeni/Banking-App",
+    title: "Developer Connector",
+    description: "Social web application for developers",
+    ghLink: "https://github.com/aviwembekeni/developer-connector",
     demoLink: null,
   },
   {
     imgPath: leaf,
-    title: "Rock Paper Sciscor",
+    title: "Rock Paper Scisscor",
     description: "Rock Paper Sciscor game build using Javascript",
     ghLink: "https://github.com/aviwembekeni/Rock-Paper-Scissors-Game",
     demoLink: null,
