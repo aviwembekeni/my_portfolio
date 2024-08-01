@@ -17,8 +17,9 @@ function About() {
         <Row className="about-content">
           <Col md={7} className="about-description">
             <h1 className="about-title">
-              Know Who <strong className="purple">I' AM</strong>
+              <strong>Know who I am</strong>
             </h1>
+
             <Aboutcard />
           </Col>
           <Col md={5} className="about-img-container">
