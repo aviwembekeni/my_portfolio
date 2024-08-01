@@ -34,7 +34,7 @@ function SubHome() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Node</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -43,7 +43,7 @@ function SubHome() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React and Next</b>
               </i>
             </p>
           </Col>
