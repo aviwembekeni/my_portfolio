@@ -31,6 +31,13 @@ const projectData = [
     demoLink: "https://dev-connector-client.netlify.app/",
   },
   {
+    imgPath: editor,
+    title: "Face Detection App",
+    description: "Web application that detects faces in a pictures using AI",
+    ghLink: "https://github.com/aviwembekeni/react-face-detection-app",
+    demoLink: "https://react-face-detection-app-s6jt.onrender.com",
+  },
+  {
     imgPath: leaf,
     title: "Rock Paper Scisscor",
     description: "Rock Paper Sciscor game built using Javascript",
