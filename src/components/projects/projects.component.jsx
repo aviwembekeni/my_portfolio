@@ -28,7 +28,7 @@ const projectData = [
     title: "Developer Connector",
     description: "Social web application for developers",
     ghLink: "https://github.com/aviwembekeni/developer-connector",
-    demoLink: null,
+    demoLink: "https://dev-connector-client.netlify.app/",
   },
   {
     imgPath: leaf,
