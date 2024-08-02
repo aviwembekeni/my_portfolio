@@ -10,7 +10,6 @@ import {
 } from "react-icons/ai";
 import { CgFileDocument, CgGitFork } from "react-icons/cg";
 import logo from "../../Assets/my-logo.PNG";
-// import "../styles/NavBar.css";
 
 const NavBar = () => {
   const [expand, setExpand] = useState(false);
