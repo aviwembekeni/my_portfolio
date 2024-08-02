@@ -59,6 +59,14 @@ const NavBar = () => {
               <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />{" "}
               Projects
             </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to="/recommendations"
+              onClick={() => setExpand(false)}
+            >
+              <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />{" "}
+              Recommendations
+            </Nav.Link>
             <Nav.Link as={Link} to="/resume" onClick={() => setExpand(false)}>
               <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
             </Nav.Link>
