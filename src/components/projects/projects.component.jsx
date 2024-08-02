@@ -33,7 +33,7 @@ const projectData = [
   {
     imgPath: leaf,
     title: "Rock Paper Scisscor",
-    description: "Rock Paper Sciscor game build using Javascript",
+    description: "Rock Paper Sciscor game built using Javascript",
     ghLink: "https://github.com/aviwembekeni/Rock-Paper-Scissors-Game",
     demoLink: null,
   },
