@@ -10,8 +10,10 @@ import Navbar from "./components/navbar/navbar.component";
 import Home from "./components/home/home.component";
 import About from "./components/about/about.component";
 import Projects from "./components/projects/projects.component";
-import Footer from "./components/footer/footer.component";
 import Resume from "./components/resume/resume.component";
+import Recommendations from "./components/recommendations/recommendation.component";
+import Footer from "./components/footer/footer.component";
+
 import ScrollToTop from "./common/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -39,6 +41,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/recommendations" element={<Recommendations />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
