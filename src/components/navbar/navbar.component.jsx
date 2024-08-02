@@ -6,6 +6,7 @@ import {
   AiOutlineHome,
   AiOutlineUser,
   AiOutlineFundProjectionScreen,
+  AiOutlineLike,
 } from "react-icons/ai";
 import { CgFileDocument, CgGitFork } from "react-icons/cg";
 import logo from "../../Assets/my-logo.PNG";
@@ -64,8 +65,7 @@ const NavBar = () => {
               to="/recommendations"
               onClick={() => setExpand(false)}
             >
-              <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />{" "}
-              Recommendations
+              <AiOutlineLike style={{ marginBottom: "2px" }} /> Recommendations
             </Nav.Link>
             <Nav.Link as={Link} to="/resume" onClick={() => setExpand(false)}>
               <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
