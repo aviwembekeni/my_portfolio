@@ -8,8 +8,12 @@ import LettuceDigitalPdf from "../../Assets/Recommendations _ Aviwe_Ngqukumba _ 
 function Recommendations() {
   return (
     <Fragment>
-      <PdfViewer pdf={devDFreamPdf} name="DevDream R.." />;
-      <PdfViewer pdf={LettuceDigitalPdf} name="Lettuce R.." />;
+      <PdfViewer pdf={devDFreamPdf} name="DevDream Digital Recommendation" />;
+      <PdfViewer
+        pdf={LettuceDigitalPdf}
+        name="Lettuce Digital Recommendation"
+      />
+      ;
     </Fragment>
   );
 }
